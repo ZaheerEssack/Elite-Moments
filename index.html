@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Video Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Videos</title>
+    <style>
+        /* add some basic styles to make it look decent */
+        body {
+            font-family: Comic Sans MS, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+       .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Asseto corsa edit 1</h1>
@@ -13,8 +27,8 @@
     <button onclick="openFullscreen1()">Open Fullscreen</button>
 
     <h1>Asseto corsa edit 2</h1>
-    <video id="./vidieos/Asseto corsa edit 2.mp4" width="640" height="360" controls>
-        <source src="vidieos/Asseto corsa edit 2.mp4" type="video/mp4">
+    <video id="video2" width="640" height="360" controls>
+        <source src="./vidieos/Asseto corsa edit 2.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <br>

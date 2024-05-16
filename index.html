@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Videos</title>
+    <title>Elite Moments</title>
     <style>
         /* add some basic styles to make it look decent */
         body {
@@ -18,49 +19,27 @@
     </style>
 </head>
 <body>
-    <h1><b><u>Zaheer Videos</u></b></h1>
-    <p>This is my website for my edits</p>
-    <hr>
-    
-    <h1>Asseto corsa edit 1</h1>
-    <video id="video1" width="500" controls>
-        <source src="./vidieos/Asseto corsa edit 1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <br>
-    <button onclick="openFullscreen1()">Open Fullscreen</button>
-    
-
-    <h1>Asseto corsa edit 2</h1>
-    <video id="video2" width="500" controls>
-        <source src="./vidieos/Asseto corsa edit 2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <br>
-    <button onclick="openFullscreen1()">Open Fullscreen</button>
-    
-        <script>
-        function openFullscreen1() {
-            var video1 = document.getElementById("video1");
-            if (video1.requestFullscreen) {
-                video1.requestFullscreen();
-            } else if (video1.webkitRequestFullscreen) { 
-                video1.webkitRequestFullscreen(); // Safari
-            } else if (video1.msRequestFullscreen) { 
-                video1.msRequestFullscreen(); // IE11
-            }
-        }
-
-        function openFullscreen2() {
-            var video2 = document.getElementById("video2");
-            if (video2.requestFullscreen) {
-                video2.requestFullscreen();
-            } else if (video2.webkitRequestFullscreen) { 
-                video2.webkitRequestFullscreen(); // Safari
-            } else if (video2.msRequestFullscreen) { 
-                video2.msRequestFullscreen(); // IE11
-            }
-        }
-    </script>
+    <div class="container">
+        <!-- add your content here -->
+        <h1><b><u>Elite Moments 2024</u></b></h1>
+        <p>No offense is intended towards any individuals lised below this is all just for fun</p>
+        <b><hr></b>
+    </div>
 </body>
-</html>
+    <main>
+        <div class="Tayoob just Chilling">
+            <h2><b><u>Tayoob just Chilling</u></b></h2>
+            <p><i>Hey whats up...</i></p>
+            <img src="./images/Tayoob.png" width="500">
+        </div>
+        <div class="Paruk likes airsoft">
+            <h2><b><u>Paruk likes airsoft</u></b></h2>
+            <p><i>Hey its me Yusuf Paruk this is my first time at airsoft</i></p>
+            <img src="./images/Paruk.png" width="500">
+        </div>
+        <div class="Seedat cannot see that">
+            <h2><b><u>Seedat cannot see that</u></b></h2>
+            <p><i>Hi its me Seedat</i></p>
+            <img src="./images/seedat.png" width="500">
+        </div>
+    </main>
